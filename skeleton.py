@@ -1,16 +1,20 @@
 """
-Module Docment
+Module Docstring
 """
 
 #
-## Implement increment function inc(x) here
+## Implement increment function inc(x)
 #
 
+def inc(x):
+    return x+1
+
 #
-## Implement  function double(x) which returns 2*x, here
+## Implement  function double(x) which returns 2*x
 #
 
-
+def double(x):
+    return 2*x
 
 def main():
     """Testing functions"""
@@ -18,4 +22,4 @@ def main():
     print( inc(x)*double(x))
 
 if __name__=='__main__':
-    test()
+    main()
