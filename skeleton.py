@@ -1,5 +1,6 @@
 """
 Module Docstring
+We show how to use functions in python
 """
 
 #
